@@ -1,0 +1,8 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:log4jReceiver="clr-namespace:Prosa.Log4View.Log4jReceiver">
+
+    <DataTemplate x:Key="Log4jReceiverTemplate" DataType="{x:Type log4jReceiver:Log4jNetReceiverConfigVm}">
+        <log4jReceiver:Log4jReceiverConfigControl/>
+    </DataTemplate>
+</ResourceDictionary>
