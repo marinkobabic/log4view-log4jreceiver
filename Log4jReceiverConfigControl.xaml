@@ -8,7 +8,7 @@
              d:DesignHeight="300" d:DesignWidth="300"
              d:DataContext="{d:DesignInstance {x:Type local:Log4j2NetReceiverConfigVm}}">
     <StackPanel>
-         <HeaderedContentControl Header="Host">
+         <HeaderedContentControl Header="Host" IsEnabled="False">
              <TextBox Text="{Binding HostName, UpdateSourceTrigger=PropertyChanged}" Margin="0 4 0 0"/>
          </HeaderedContentControl>
 
